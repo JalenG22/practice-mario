@@ -1,1 +1,9 @@
+# Mario Kart sample log
 
+INFO Mario began level
+ERROR Mario ran into an obstacle
+WARNING Mario has low health
+INFO Mario has collected the Power-up
+ERROR Mario fell in the lava 
+INFO Mario reached checkpoint
+WARNING Mario has low coins 
