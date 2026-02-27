@@ -9,15 +9,15 @@ total_lines = 0
 #File
 with open("mario.kart", "r") as file: 
 
-#Loop 
-for line in file: 
-  total_lines += 1
+  #Loop
+    for line in file: 
+        total_lines += 1
   
-  if "ERROR" in line:
-    coins += 1
+        if "ERROR" in line:
+            coins += 1
     
-  if "WARNING" in line: 
-    bananas += 1
+        if "WARNING" in line: 
+             bananas += 1
 
 #Print Results
 print("Total lines:", total_lines)
